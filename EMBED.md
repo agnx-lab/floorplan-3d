@@ -2,7 +2,7 @@
 
 ## 一、上游是什么
 
-- 来源：`/Users/apple/Downloads/floorplan-3d-master`（MIT），单文件纯前端应用 `index.html`（约 185 KB / 2674 行）。
+- 来源：`~/Downloads/floorplan-3d-master`（MIT），单文件纯前端应用 `index.html`（约 185 KB / 2674 行）。
 > 上游仓库：https://github.com/wy51ai/floorplan-3d
 - 能力：2D 平面图编辑（墙体、房间、家具、尺寸标注、承重墙）+ 3D 场景实时同步（three.js r160）+ 鸟瞰/斜视/俯视/漫游四种视角 + 深浅色与中英繁体切换 + PNG 截图 / JSON 方案导入导出。
 - 零后端：全部状态存在浏览器 `localStorage`。
