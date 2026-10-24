@@ -1,0 +1,10 @@
+{
+  "appId": "floorplan-3d",
+  "installState": "installed",
+  "launchMode": "packaged",
+  "source": {
+    "kind": "github",
+    "url": "https://github.com/wy51ai/floorplan-3d"
+  },
+  "updatedAt": "2026-10-22T21:11:47.000Z"
+}

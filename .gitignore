@@ -23,3 +23,7 @@ tmp/
 # 环境变量
 .env
 .env.*
+
+# Agnx 子应用胶水产物必须入库（上游裸 dist 规则会误伤 .agnx/dist）
+!.agnx/dist/
+!.agnx/dist/**

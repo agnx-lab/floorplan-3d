@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["/Users/apple/Documents/github/agnx/node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "@getagnx/app-sdk": ["/Users/apple/Documents/github/agnx/packages/app-sdk/src/index.ts"],
+      "react": ["/Users/apple/Documents/github/agnx/node_modules/@types/react/index.d.ts"],
+      "react/jsx-runtime": ["/Users/apple/Documents/github/agnx/node_modules/@types/react/jsx-runtime.d.ts"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

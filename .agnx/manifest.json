@@ -1,0 +1,41 @@
+{
+  "id": "floorplan-3d",
+  "name": "户型设计",
+  "version": "0.1.0",
+  "description": "2D 平面布置 + 3D 实时漫游的户型装修设计器（整仓嵌入上游 floorplan-3d）",
+  "engines": {
+    "agnx": ">=1.0.0"
+  },
+  "main": "./dist/index.js",
+  "icon": "./.agnx/assets/icon.png",
+  "platforms": {
+    "desktop": "supported",
+    "web": "partial",
+    "mobile": "unsupported"
+  },
+  "sidecar": {
+    "supervised": true,
+    "ensureTool": ".agnx/tools/ensure-floorplan-3d.mjs",
+    "stateFile": "floorplan-3d.json",
+    "defaultPort": 5192
+  },
+  "guest": {
+    "kind": "web",
+    "auth": "none",
+    "preferStrategy": "auto"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "id": "floorplan-3d.open",
+        "title": "户型设计"
+      }
+    ],
+    "panels": [
+      {
+        "id": "floorplan-3d.main",
+        "title": "户型设计"
+      }
+    ]
+  }
+}
